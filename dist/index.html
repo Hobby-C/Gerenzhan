@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="玄川的 AI 创作作品集，涵盖 AI 广告、AIGC 短片、AI 图片与商业视觉。">
+  <title>玄川｜AI 创作者作品集</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要内容</a>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#top" aria-label="返回首页">
+      <span class="brand-cn">玄川</span>
+      <span class="brand-divider" aria-hidden="true"></span>
+      <span class="brand-en">XUANCHUAN</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="打开导航" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="主导航">
+      <a class="nav-link active" href="#top">首页</a>
+      <a class="nav-link" href="#works">作品</a>
+      <a class="nav-link" href="#about">关于我</a>
+      <a class="nav-link" href="#contact">联系我</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-glow glow-a" aria-hidden="true"></div>
+      <div class="hero-canva-decoration" aria-hidden="true">
+        <img class="hero-data-art" src="assets/canva/minimal-flowing-data-particles.webp" alt="">
+        <img class="hero-grid-art" src="assets/canva/minimal-futuristic-perspective-grid.webp" alt="">
+        <img class="hero-ribbon-art" src="assets/canva/purple-glass-black-chrome-ribbon.webp" alt="">
+        <img class="hero-energy-art" src="assets/canva/violet-ai-energy-core.webp" alt="">
+      </div>
+      <div class="hero-copy reveal is-visible">
+        <p class="eyebrow"><span></span> AI CREATOR · 2026</p>
+        <h1 id="hero-title"><span>玄川</span><small>AI 创作者</small></h1>
+        <p class="hero-discipline">AIGC <b>×</b> 创意科技</p>
+        <p class="hero-intro">探索 AI 与创意之间更多新的可能，<br>让每一个想法拥有可见的形状。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#works">
+            <span>查看作品</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg>
+          </a>
+          <span class="availability"><i></i> 开放创意合作</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal is-visible" aria-label="抽象紫色玻璃与金属悬浮雕塑">
+        <div class="visual-frame">
+          <video autoplay muted loop playsinline preload="metadata" poster="assets/canva/obsidian-violet-hero.webp">
+            <source src="assets/hero/tech-float.webm" type="video/webm">
+            <source src="assets/hero/tech-float.mp4" type="video/mp4">
+          </video>
+          <div class="visual-vignette"></div>
+          <span class="visual-index">01 / VISUAL STUDY</span>
+          <span class="visual-orbit" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#works" aria-label="向下浏览作品">
+        <span>SCROLL TO EXPLORE</span>
+        <i></i>
+      </a>
+      <p class="hero-side-note" aria-hidden="true">GENERATIVE VISUAL / MOTION / ART DIRECTION</p>
+    </section>
+
+    <section class="works section" id="works" aria-labelledby="works-title">
+      <div class="works-canva-decoration" aria-hidden="true">
+        <img class="works-network-art" src="assets/canva/sparse-ai-network-visualization.webp" alt="">
+        <img class="works-wave-art" src="assets/canva/abstract-digital-wave-landscape.webp" alt="">
+      </div>
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-kicker">SELECTED WORKS</p>
+          <h2 id="works-title">精选作品</h2>
+        </div>
+        <p class="section-intro">以 AI 为媒介，探索影像、叙事与商业视觉的边界。</p>
+      </div>
+
+      <div class="filter-bar reveal" role="group" aria-label="按项目分类筛选">
+        <button class="filter-button active" type="button" data-filter="all">全部 <sup>10</sup></button>
+        <button class="filter-button" type="button" data-filter="AI 广告">AI 广告 <sup>03</sup></button>
+        <button class="filter-button" type="button" data-filter="AIGC 短片">AIGC 短片 <sup>03</sup></button>
+        <button class="filter-button" type="button" data-filter="AI 图片">AI 图片 <sup>04</sup></button>
+      </div>
+
+      <div class="projects" id="projectGrid">
+        <article class="project-card project-wide reveal" data-category="AI 广告" data-type="video" data-src="assets/videos/watch-ad.mp4" data-poster="assets/videos/watch-ad.jpg" data-title="深海手表广告" data-index="01">
+          <button class="project-open" type="button" aria-label="查看项目：深海手表广告">
+            <div class="project-media"><img src="assets/videos/watch-ad.jpg" alt="深海手表广告画面" loading="eager"></div>
+            <div class="project-shade"></div>
+            <div class="project-top"><span>AI 广告</span><span>2026</span></div>
+            <div class="project-info">
+              <div><span class="project-no">01</span><h3>深海手表广告</h3><p>以深海光影与精密质感，构建一支沉浸式腕表广告。</p></div>
+              <span class="project-cta">查看项目 <b>↗</b></span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-narrow reveal" data-category="AI 图片" data-type="image" data-src="assets/images/xuanzhu-shennv.webp" data-title="玄珠神女" data-index="02">
+          <button class="project-open" type="button" aria-label="查看项目：玄珠神女">
+            <div class="project-media"><img src="assets/images/xuanzhu-shennv.webp" alt="玄珠神女角色视觉" loading="lazy"></div>
+            <div class="project-shade"></div>
+            <div class="project-top"><span>AI 图片</span><span>2026</span></div>
+            <div class="project-info">
+              <div><span class="project-no">02</span><h3>玄珠神女</h3><p>结合珍珠、透明材质与柔光完成高端角色视觉。</p></div>
+              <span class="project-cta">查看项目 <b>↗</b></span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-half reveal" data-category="AIGC 短片" data-type="video" data-src="assets/videos/rain-night.mp4" data-poster="assets/videos/rain-night.jpg" data-title="雨夜" data-index="03">
+          <button class="project-open" type="button" aria-label="查看项目：雨夜">
+            <div class="project-media"><img src="assets/videos/rain-night.jpg" alt="雨夜短片画面" loading="lazy"></div>
+            <div class="project-shade"></div>
+            <div class="project-top"><span>AIGC 短片</span><span>2026</span></div>
+            <div class="project-info">
+              <div><span class="project-no">03</span><h3>雨夜</h3><p>以 AI 生成技术完成的一段电影感叙事短片。</p></div>
+              <span class="project-cta">查看项目 <b>↗</b></span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-half reveal" data-category="AI 图片" data-type="image" data-src="assets/images/leihai-longnv.webp" data-title="雷海龙女" data-index="04">
+          <button class="project-open" type="button" aria-label="查看项目：雷海龙女">
+            <div class="project-media"><img src="assets/images/leihai-longnv.webp" alt="雷海龙女商业角色视觉" loading="lazy"></div>
+            <div class="project-shade"></div>
+            <div class="project-top"><span>AI 图片</span><span>2026</span></div>
+            <div class="project-info">
+              <div><span class="project-no">04</span><h3>雷海龙女</h3><p>以雷电、深海与冷色材质塑造角色主视觉。</p></div>
+              <span class="project-cta">查看项目 <b>↗</b></span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-narrow reveal" data-category="AI 广告" data-type="video" data-src="assets/videos/bag-ad.mp4" data-poster="assets/videos/bag-ad.jpg" data-title="箱包广告" data-index="05">
+          <button class="project-open" type="button" aria-label="查看项目：箱包广告">
+            <div class="project-media"><img src="assets/videos/bag-ad.jpg" alt="箱包广告画面" loading="lazy"></div>
+            <div class="project-shade"></div>
+            <div class="project-top"><span>AI 广告</span><span>2026</span></div>
+            <div class="project-info">
+              <div><span class="project-no">05</span><h3>箱包广告</h3><p>围绕材质、形态与移动感完成的产品视觉实验。</p></div>
+              <span class="project-cta">查看项目 <b>↗</b></span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-wide reveal" data-category="AI 图片" data-type="image" data-src="assets/images/zhenyuan-zhanshen.webp" data-title="镇渊战神" data-index="06">
+          <button class="project-open" type="button" aria-label="查看项目：镇渊战神">
+            <div class="project-media"><img src="assets/images/zhenyuan-zhanshen.webp" alt="镇渊战神幻想场景" loading="lazy"></div>
+            <div class="project-shade"></div>
+            <div class="project-top"><span>AI 图片</span><span>2026</span></div>
+            <div class="project-info">
+              <div><span class="project-no">06</span><h3>镇渊战神</h3><p>从远景尺度出发，构建东方幻想世界与守护者叙事。</p></div>
+              <span class="project-cta">查看项目 <b>↗</b></span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-full reveal" data-category="AIGC 短片" data-type="video" data-src="assets/videos/ai-tianggong.mp4" data-poster="assets/videos/ai-tianggong.jpg" data-title="AI 天宫" data-index="07">
+          <button class="project-open" type="button" aria-label="查看项目：AI 天宫">
+            <div class="project-media"><img src="assets/videos/ai-tianggong.jpg" alt="AI 天宫短片画面" loading="lazy"></div>
+            <div class="project-shade"></div>
+            <div class="project-top"><span>AIGC 短片</span><span>2026</span></div>
+            <div class="project-info project-info-horizontal">
+              <div><span class="project-no">07</span><h3>AI 天宫</h3></div>
+              <p>将东方想象与未来视觉语言融合的世界观短片。</p>
+              <span class="project-cta">查看项目 <b>↗</b></span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-wide reveal" data-category="AI 图片" data-type="image" data-src="assets/images/longdi-2.webp" data-title="龙帝 2.0" data-index="08">
+          <button class="project-open" type="button" aria-label="查看项目：龙帝 2.0">
+            <div class="project-media"><img src="assets/images/longdi-2.webp" alt="龙帝 2.0 角色场景" loading="lazy"></div>
+            <div class="project-shade"></div>
+            <div class="project-top"><span>AI 图片</span><span>2026</span></div>
+            <div class="project-info">
+              <div><span class="project-no">08</span><h3>龙帝 2.0</h3><p>在水下神域中重构东方英雄与宏大建筑的关系。</p></div>
+              <span class="project-cta">查看项目 <b>↗</b></span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-narrow reveal" data-category="AI 广告" data-type="video" data-src="assets/videos/ka-gum-ad.mp4" data-poster="assets/videos/ka-gum-ad.jpg" data-title="KA 口香糖广告" data-index="09">
+          <button class="project-open" type="button" aria-label="查看项目：KA 口香糖广告">
+            <div class="project-media"><img src="assets/videos/ka-gum-ad.jpg" alt="KA 口香糖广告画面" loading="lazy"></div>
+            <div class="project-shade"></div>
+            <div class="project-top"><span>AI 广告</span><span>2026</span></div>
+            <div class="project-info">
+              <div><span class="project-no">09</span><h3>KA 口香糖广告</h3><p>用鲜明节奏与高能画面重塑日常消费品广告。</p></div>
+              <span class="project-cta">查看项目 <b>↗</b></span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-half reveal" data-category="AIGC 短片" data-type="video" data-src="assets/videos/love-remains.mp4" data-poster="assets/videos/love-remains.jpg" data-title="爱从未离开" data-index="10">
+          <button class="project-open" type="button" aria-label="查看项目：爱从未离开">
+            <div class="project-media"><img src="assets/videos/love-remains.jpg" alt="爱从未离开短片画面" loading="lazy"></div>
+            <div class="project-shade"></div>
+            <div class="project-top"><span>AIGC 短片</span><span>2026</span></div>
+            <div class="project-info">
+              <div><span class="project-no">10</span><h3>爱从未离开</h3><p>在生成式影像中讲述记忆、陪伴与情感余温。</p></div>
+              <span class="project-cta">查看项目 <b>↗</b></span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-half project-note reveal" aria-label="更多作品正在生成">
+          <div class="note-orb" aria-hidden="true"></div>
+          <div class="note-content"><span>11—∞</span><h3>持续生成中</h3><p>新的视觉实验与叙事作品，正在发生。</p></div>
+          <div class="note-mark" aria-hidden="true">XC</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="about-ghost" aria-hidden="true">ABOUT</div>
+      <div class="about-layout">
+        <div class="about-label reveal">
+          <p class="section-kicker">ABOUT ME</p>
+          <span>02 / PROFILE</span>
+        </div>
+        <div class="about-copy reveal">
+          <h2 id="about-title">你好，我是玄川</h2>
+          <p>我持续探索 <em>AI 图像、AI 视频、生成式视觉</em>与创意技术，希望通过 AI 将更多想法转化为真正能够被看见和表达的作品。</p>
+          <p class="about-secondary">我关注画面的质感，也重视概念与叙事。每一次创作，都是技术与审美之间的一次新连接。</p>
+          <div class="skill-tags" aria-label="创作方向">
+            <span>AI 图像</span><span>AI 视频</span><span>生成式视觉</span><span>创意技术</span>
+          </div>
+          <div class="tool-bubbles" role="list" aria-label="常用 AI 创作工具">
+            <div class="tool-bubble bubble-gpt" role="listitem" aria-label="GPT" data-depth="1.15">
+              <div class="tool-bubble-inner">
+                <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6a9 9 0 0 1 8.7 6.7A9 9 0 0 1 39 28a9 9 0 0 1-13.2 11.1A9 9 0 0 1 9 32.5 9 9 0 0 1 15.3 17 9 9 0 0 1 24 6Z"/><path d="m16 18 8-4 8 4v12l-8 4-8-4V18Zm8-4v10l8 6M16 18l8 6-8 6"/></svg>
+                <span>GPT</span>
+              </div>
+            </div>
+            <div class="tool-bubble bubble-jimeng" role="listitem" aria-label="即梦" data-depth=".8">
+              <div class="tool-bubble-inner">
+                <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 7c1.8 8.6 6.4 13.2 15 15-8.6 1.8-13.2 6.4-15 15-1.8-8.6-6.4-13.2-15-15 8.6-1.8 13.2-6.4 15-15Z"/><path d="M36 7c.6 3 2 4.4 5 5-3 .6-4.4 2-5 5-.6-3-2-4.4-5-5 3-.6 4.4-2 5-5Z"/></svg>
+                <span>即梦</span>
+              </div>
+            </div>
+            <div class="tool-bubble bubble-libtv" role="listitem" aria-label="LibTV" data-depth="1.35">
+              <div class="tool-bubble-inner">
+                <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 9v30h27"/><path d="m21 16 15 8-15 8V16Z"/></svg>
+                <span>LibTV</span>
+              </div>
+            </div>
+            <div class="tool-bubble bubble-suno" role="listitem" aria-label="Suno" data-depth=".95">
+              <div class="tool-bubble-inner">
+                <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 26c3-10 5 10 8 0s5-10 8 0 5 10 8 0 5-10 8 0"/><path d="M8 18c3-6 5 6 8 0s5-6 8 0 5 6 8 0 5-6 8 0"/></svg>
+                <span>Suno</span>
+              </div>
+            </div>
+            <div class="tool-bubble bubble-midjourney" role="listitem" aria-label="Midjourney" data-depth="1.5">
+              <div class="tool-bubble-inner">
+                <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 35h32L25 13l-4 14-5-8-8 16Z"/><path d="M7 39h34"/></svg>
+                <span>MJ</span>
+              </div>
+            </div>
+            <div class="tool-bubble bubble-runway" role="listitem" aria-label="Runway" data-depth="1.1">
+              <div class="tool-bubble-inner">
+                <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 38V10h12c7 0 11 3.5 11 9.5S31 29 24 29H12"/><path d="m24 29 12 9"/></svg>
+                <span>Runway</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-art reveal" aria-hidden="true">
+          <img class="about-objects-art" src="assets/canva/futuristic-geometric-object-collection.webp" alt="">
+          <img class="about-portal-art" src="assets/canva/minimal-purple-light-portal-v2.webp" alt="">
+          <div class="about-ring ring-one"></div>
+          <div class="about-ring ring-two"></div>
+          <img class="about-monogram-art" src="assets/canva/xc-sculptural-monogram.webp" alt="">
+          <p>HUMAN IMAGINATION<br>× MACHINE INTELLIGENCE</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-canva-decoration" aria-hidden="true">
+        <img class="contact-space-art" src="assets/canva/vast-violet-light-space.webp" alt="">
+        <img class="contact-portal-art" src="assets/canva/minimal-purple-light-portal.webp" alt="">
+        <img class="contact-sculpture-art" src="assets/canva/impossible-violet-glass-sculpture.webp" alt="">
+      </div>
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="contact-grid" aria-hidden="true"></div>
+      <div class="contact-inner reveal">
+        <p class="section-kicker">LET'S CREATE SOMETHING NEW.</p>
+        <h2 id="contact-title">一起创造<br><em>新的可能</em></h2>
+        <p>如果你对 AI 创作、视觉设计或创意项目感兴趣，欢迎与我联系。</p>
+        <button class="button button-contact" id="copyContact" type="button" data-contact="玄川">
+          <span>复制微信昵称</span>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg>
+        </button>
+      </div>
+      <div class="contact-meta">
+        <span>微信 / 玄川</span><span>AI CREATOR · CHINA</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top"><span class="brand-cn">玄川</span><span class="brand-divider"></span><span class="brand-en">XUANCHUAN</span></a>
+    <p>© <span id="year">2026</span> 玄川. 保留所有权利。</p>
+    <a href="#top">回到顶部 ↑</a>
+  </footer>
+
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-shell">
+      <header class="dialog-header">
+        <div><span id="dialogIndex">01</span><h2 id="dialogTitle">项目标题</h2></div>
+        <button class="dialog-close" id="dialogClose" type="button" aria-label="关闭项目预览"><span></span><span></span></button>
+      </header>
+      <div class="dialog-media" id="dialogMedia"></div>
+      <footer class="dialog-footer"><span id="dialogCategory">AI 广告</span><span id="dialogType">完整作品 · 有声播放</span></footer>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">微信昵称已复制</div>
+  <script src="script.js"></script>
+</body>
+</html>
