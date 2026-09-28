@@ -25,8 +25,10 @@ jobs:
       - name: 检出仓库
         uses: actions/checkout@v4
 
-      - name: 配置 GitHub Pages
+      - name: 配置并自动启用 GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: 上传静态网站
         uses: actions/upload-pages-artifact@v3
