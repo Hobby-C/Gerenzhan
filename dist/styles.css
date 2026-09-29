@@ -181,7 +181,7 @@ img, video { display: block; width: 100%; }
 .site-footer { min-height:110px; padding:28px var(--pad); display:flex; align-items:center; justify-content:space-between; gap:20px; border-top:1px solid var(--line); color:var(--muted-2); font-size:10px; letter-spacing:.06em; }
 .site-footer > a:last-child { color:#9d9ba2; transition:color .2s; }
 .site-footer > a:last-child:hover { color:#fff; }
-.site-disclaimer { margin:0; padding:0 var(--pad) 22px; color:var(--muted-2); font-size:11px; line-height:1.5; letter-spacing:.02em; text-align:center; }
+.site-disclaimer { margin:0; padding:0 var(--pad) 24px; color:var(--muted-2); font-size:clamp(14px,1.05vw,16px); font-weight:500; line-height:1.55; letter-spacing:.03em; text-align:center; }
 
 .project-dialog { width:100vw; max-width:none; height:100svh; max-height:none; margin:0; padding:0; border:0; color:#fff; background:rgba(4,4,5,.96); }
 .project-dialog::backdrop { background:#030303; }
